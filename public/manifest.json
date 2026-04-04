@@ -1,0 +1,28 @@
+{
+  "name": "LessonLens",
+  "short_name": "LessonLens",
+  "description": "Offline-first AI teaching assistant powered by Gemma 4. Grade worksheets, detect conceptual gaps, and generate personalized interventions — all on device.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F7F6",
+  "theme_color": "#4CAF50",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education", "productivity"]
+}

@@ -1,8 +1,8 @@
 FROM node:22-alpine AS builder
 WORKDIR /app
-COPY package.json package-lock.json ./
+COPY server/package.json server/package-lock.json ./
 RUN npm ci
-COPY . .
+COPY server/ ./
 RUN npx tsc
 
 FROM node:22-alpine

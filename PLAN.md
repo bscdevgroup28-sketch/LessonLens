@@ -51,11 +51,11 @@
 - [x] GET `/api/district/:schoolId` for district-level aggregation.
 - [x] Create `services/sync.ts` frontend client with cloud status check.
 - [x] `services/storage.ts`: localStorage-based offline persistence with class stats computation.
-- [ ] Deploy to Railway.
+- [x] Deploy to Railway (`https://lessonlens-api-production.up.railway.app`).
 - [ ] Connect to GCP Firestore for persistent storage.
-- [ ] Wire "Sync to Cloud" button in Dashboard UI.
+- [x] Wire "Sync to Cloud" button in Dashboard UI.
 
 ### Phase 4: Pitch, Video, & Kaggle Writeup
 - [ ] Record the demonstration video showing the offline capabilities (turning off Wi-Fi before scanning).
 - [ ] Draft the Kaggle Writeup following the 1,500-word limit, emphasizing architecture, privacy, and Gemma 4 usage.
-- [ ] Finalize the public GitHub repository documentation.
+- [x] Finalize the public GitHub repository documentation.
